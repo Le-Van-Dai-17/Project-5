@@ -1,4 +1,3 @@
-import { FaBackwardStep, FaForwardStep, FaPlay, FaVolumeHigh } from "react-icons/fa6";
 import PlayAudio from "./playAudio";
 import PlayInfor from "./PlayInfor";
 import PlayAction from "./playAction";

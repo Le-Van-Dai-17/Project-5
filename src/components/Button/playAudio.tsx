@@ -1,9 +1,7 @@
-import { dbFirebase } from "@/app/firebaseConfig";
-import { onValue, ref } from "firebase/database";
 import { FaPlay } from "react-icons/fa6";
 
 export default function PlayAudio ( props: any) {
-    const { image, title, singer, listen, link, id, audio } = props;
+    const { image, title, singer, id, audio } = props;
 
     const HandleAudio = () => {
         const elementPlayAudio = document.querySelector(".audio-play");

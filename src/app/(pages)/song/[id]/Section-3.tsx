@@ -5,7 +5,6 @@ import SongItem_2 from "@/components/SongItem/SongItem_2";
 import Title from "@/components/title/title";
 import { onValue, ref } from "firebase/database";
 import { useEffect, useState } from "react";
-import { FaHeart, FaPlay } from "react-icons/fa6";
 
 export default function Section_3 ( props : any) {
     const { id } = props;

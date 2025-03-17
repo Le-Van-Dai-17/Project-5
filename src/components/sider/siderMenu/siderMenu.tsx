@@ -2,8 +2,6 @@
 
 import { authFirebase } from "@/app/firebaseConfig";
 import { onAuthStateChanged } from "firebase/auth";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { FaHeart, FaMusic, FaPodcast, FaUser, FaUserPlus } from "react-icons/fa6";
 import { FiLogOut } from "react-icons/fi";
