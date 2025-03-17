@@ -23,7 +23,7 @@ export default function LoginPage() {
         router.push("/");
       }
     })
-    .catch((error) => {
+    .catch(() => {
       alert("Email hoặc mật khẩu không đúng!")
     });
   }

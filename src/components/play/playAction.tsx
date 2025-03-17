@@ -19,7 +19,7 @@ export default function PlayAction () {
         }
     }
 
-    const HandleNext = (event: any) => {
+    const HandleNext = () => {
         const elementPlayAudio:any = document.querySelector(".audio-play");
         const idSong = elementPlayAudio.getAttribute("song-id");
         if(idSong){

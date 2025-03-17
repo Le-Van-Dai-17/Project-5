@@ -1,4 +1,4 @@
-export default function(props: {
+export default function Title (props: {
     text: string 
     className?: string
 } ) {
