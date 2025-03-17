@@ -5,14 +5,14 @@ import { signOut } from "firebase/auth";
 import { useRouter } from "next/navigation"
 import { useEffect } from "react";
 
-export default function logout () {
+export default function Logout () {
     const router = useRouter();
     
     useEffect(() => {
         signOut(authFirebase).then(() => {
             router.push("/login");
             alert("Đăng xuất thành công!");
-          }).catch((error) => {
+          }).catch(() => {
             alert("Đăng xuất không thành công!");
           });
     }, [])

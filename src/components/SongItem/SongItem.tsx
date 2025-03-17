@@ -4,7 +4,7 @@ import ButtonHeart from "../Button/buttonHeart";
 import Image from "next/image";
 
 export default function SongItem(props: any){
-    const { id, image, title, singer, listen, link, wishlist } = props;
+    const { id, image, title, singer, listen, link} = props;
 
     return (
         <>

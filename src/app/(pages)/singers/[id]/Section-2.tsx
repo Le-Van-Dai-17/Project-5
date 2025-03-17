@@ -7,58 +7,6 @@ import { onValue, ref } from "firebase/database";
 import { useEffect, useState } from "react";
 
 export default function Section_2 ( props: any) {
-    const data = [
-        {
-            image: "/demo/Image-12.png",
-            title: "Nơi Này Có Anh",
-            singer: "Sơn Tùng M-TP",
-            time: "4.32",
-            link: "/song/1"
-        },
-        {
-            image: "/demo/Image-12.png",
-            title: "Nơi Này Có Anh",
-            singer: "Sơn Tùng M-TP",
-            time: "4.32",
-            link: "/song/1"
-        },
-        {
-            image: "/demo/Image-12.png",
-            title: "Nơi Này Có Anh",
-            singer: "Sơn Tùng M-TP",
-            time: "4.32",
-            link: "/song/1"
-        },
-        {
-            image: "/demo/Image-12.png",
-            title: "Nơi Này Có Anh",
-            singer: "Sơn Tùng M-TP",
-            time: "4.32",
-            link: "/song/1"
-        },
-        {
-            image: "/demo/Image-12.png",
-            title: "Nơi Này Có Anh",
-            singer: "Sơn Tùng M-TP",
-            time: "4.32",
-            link: "/song/1"
-        },
-        {
-            image: "/demo/Image-12.png",
-            title: "Nơi Này Có Anh",
-            singer: "Sơn Tùng M-TP",
-            time: "4.32",
-            link: "/song/1"
-        },
-        {
-            image: "/demo/Image-12.png",
-            title: "Nơi Này Có Anh",
-            singer: "Sơn Tùng M-TP",
-            time: "4.32",
-            link: "/song/1"
-        },
-    ]
-
     const { id } = props;
     
     const [dataFinal, setDataFinal] = useState<any>();

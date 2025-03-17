@@ -4,7 +4,7 @@ import ButtonHeart from "../Button/buttonHeart";
 import Image from "next/image";
 
 export default function SongItem_2 ( props:any) {
-    const { image, title, singer, time, link, id} = props;
+    const { image, title, singer, time, link} = props;
     return (
         <>
             <div className="flex items-center px-[18px] bg-[#212121] rounded-[15px] py-[10px] justify-between">

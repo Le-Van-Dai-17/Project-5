@@ -30,11 +30,6 @@ export default function RegisterPage() {
         router.push("/");
       })
     })
-    .catch((error) => {
-      const errorCode = error.code;
-      const errorMessage = error.message;
-      // ..
-    });
   }
 
   return (
