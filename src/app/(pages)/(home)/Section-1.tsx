@@ -5,6 +5,7 @@ import SongItem from "@/components/SongItem/SongItem";
 import Title from "@/components/title/title";
 import { onValue, ref } from "firebase/database";
 import { dbFirebase } from "@/app/firebaseConfig";
+import Image from "next/image";
 
 export default function Section_1 () {
     const [dataFinal, setDataFinal] = useState<any>([]);
@@ -44,7 +45,7 @@ export default function Section_1 () {
                         </div>
                     </div>
                     <div className="w-[215px] h-[321px] mr-[23px] mt-[41px]">
-                        <img 
+                        <Image
                             src="/demo/Image-2.png"
                             alt="Nhạc EDM"
                             className="w-full h-full"
