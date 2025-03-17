@@ -15,7 +15,7 @@ export default function Logout () {
           }).catch(() => {
             alert("Đăng xuất không thành công!");
           });
-    }, [])
+    }, [router])
 
     return (
         <>

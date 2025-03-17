@@ -20,7 +20,7 @@ export default function Section_2 ( props : any) {
                     })
                 }
             })
-        }, [])   
+        }, [id, dataFinal])   
 
     return (
         <>

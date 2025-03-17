@@ -39,7 +39,7 @@ export default function Section_3 ( props : any) {
                 })
             }
         })
-        }, [])
+        }, [id, dataFinal])
 
     return (
         <>

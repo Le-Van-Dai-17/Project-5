@@ -20,7 +20,7 @@ export default function ButtonHeart (props:any) {
                     }
                 }
             })
-    }, [])
+    }, [isActive])
 
 
     const HandleWishlist = () => {

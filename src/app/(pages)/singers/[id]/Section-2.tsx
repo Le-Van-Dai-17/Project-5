@@ -31,7 +31,7 @@ export default function Section_2 ( props: any) {
                 setDataFinal(songs);
             }
         })
-    }, [])
+    }, [id, dataFinal])
 
     return (
         <>
