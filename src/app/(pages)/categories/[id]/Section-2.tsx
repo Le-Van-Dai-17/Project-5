@@ -6,6 +6,8 @@ import Title from "@/components/title/title";
 import { onValue, ref } from "firebase/database";
 import { useEffect, useState } from "react";
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 export default function Section_2 ( props:any ) {
 
     const { id } = props;

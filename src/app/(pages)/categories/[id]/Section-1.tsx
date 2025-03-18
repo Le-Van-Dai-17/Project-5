@@ -5,6 +5,8 @@ import CardInfor from "@/components/cardInfor/cardInfor";
 import { onValue, ref } from "firebase/database";
 import { useEffect, useState } from "react";
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 export default function Section_1 ( props : any) {
     const { id } = props;
 

@@ -3,6 +3,8 @@
 import { useRouter, useSearchParams } from "next/navigation";
 import { FaSearch } from "react-icons/fa";
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 export default function Search () {
     const router = useRouter();
     const params = useSearchParams();

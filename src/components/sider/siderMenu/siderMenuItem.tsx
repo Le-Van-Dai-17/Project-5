@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 export default function SiderMenuItem (props:any) {
     const pathName = usePathname();
 

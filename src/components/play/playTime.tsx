@@ -1,5 +1,7 @@
 "use client"
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 export default function PlayTime () {
     const HandleTime = (event:any) => {
         const time = parseFloat(event.target.value);

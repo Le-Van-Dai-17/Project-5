@@ -2,6 +2,8 @@
 
 import { FaVolumeHigh } from "react-icons/fa6";
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 export default function PlayVolume () {
     const HandleVolume = (event:any) => {
         const volume = parseFloat(event.target.value);

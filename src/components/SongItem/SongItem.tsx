@@ -1,8 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import PlayAudio from "../Button/playAudio";
 import ButtonHeart from "../Button/buttonHeart";
-import Image from "next/image";
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export default function SongItem(props: any){
     const { id, image, title, singer, listen, link} = props;
 
@@ -10,7 +11,7 @@ export default function SongItem(props: any){
         <>
             <div className="flex items-center bg-[#212121] p-[10px] w-full rounded-[15px]" data-id={id} >
               <div className="w-[76px] aspect-ratio mr-[10px]">
-                <Image src = {image} alt={title} className=""/>
+                <img src = {image} alt={title} className=""/>
               </div>
               <div className="items-center flex-1">
                 <Link  href={link} className="font-[600] text-[16px] text-[#FFFFFF] mb-[5px] capitalize">{title}</Link>

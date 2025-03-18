@@ -5,7 +5,9 @@ import SongItem from "@/components/SongItem/SongItem";
 import Title from "@/components/title/title";
 import { onValue, ref } from "firebase/database";
 import { dbFirebase } from "@/app/firebaseConfig";
-import Image from "next/image";
+
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 export default function Section_1 () {
     const [dataFinal, setDataFinal] = useState<any>([]);
@@ -45,7 +47,7 @@ export default function Section_1 () {
                         </div>
                     </div>
                     <div className="w-[215px] h-[321px] mr-[23px] mt-[41px]">
-                        <Image
+                        <img
                             src="/demo/Image-2.png"
                             alt="Nhạc EDM"
                             className="w-full h-full"

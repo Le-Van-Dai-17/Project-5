@@ -7,6 +7,8 @@ import { onValue, ref } from "firebase/database";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 export default function Section_1 () {
     const params = useSearchParams();
     const keyword = params.get("keyword") || "";

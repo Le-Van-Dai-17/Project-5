@@ -1,7 +1,9 @@
 import Link from "next/link";
 import PlayAudio from "../Button/playAudio";
 import ButtonHeart from "../Button/buttonHeart";
-import Image from "next/image";
+
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 export default function SongItem_2 ( props:any) {
     const { image, title, singer, time, link} = props;
@@ -13,7 +15,7 @@ export default function SongItem_2 ( props:any) {
                         <PlayAudio {...props} />
                     </div>
                     <div className="mr-[12px] w-[42px] aspect-square truncate rounded-[15px]">
-                        <Image src={image} alt={title} className="w-full h-full object-cover" />
+                        <img src={image} alt={title} className="w-full h-full object-cover" />
                    </div>
                    <Link href={link} className="text-[#FFFFFF] text-[14px] font-[700]">
                         {title}

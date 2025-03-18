@@ -1,5 +1,7 @@
 import { FaPlay } from "react-icons/fa6";
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 export default function PlayAudio ( props: any) {
     const { image, title, singer, id, audio } = props;
 

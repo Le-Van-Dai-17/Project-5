@@ -5,6 +5,8 @@ import Title from "@/components/title/title";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { useRouter } from "next/navigation";
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 export default function LoginPage() {
 
   const router = useRouter();

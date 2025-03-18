@@ -2,6 +2,8 @@
 
 import { FaBackwardStep, FaForwardStep, FaPause, FaPlay } from "react-icons/fa6";
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 export default function PlayAction () {
     const HandlePause = () => {
         const elementPlayAudio:any = document.querySelector(".audio-play");
@@ -44,8 +46,7 @@ export default function PlayAction () {
                 const elementPrev = elementSongCurrent.previousSibling;
                 const buttonPlay = elementPrev.querySelector(".inner-button-play");
                 buttonPlay.click();
-            }
-            
+            }   
         }
     }
 

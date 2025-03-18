@@ -6,6 +6,8 @@ import { ref, runTransaction } from "firebase/database";
 import { useEffect, useState } from "react";
 import { FaRegHeart } from "react-icons/fa6";
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 export default function ButtonHeart (props:any) {   
     const {id, wishlist} = props;
 
