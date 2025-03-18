@@ -40,7 +40,7 @@ export default function Section_1 () {
                 })
             }
         })
-    }, [])
+    }, [dataFinal])
 
     return (
         <>

@@ -1,6 +1,8 @@
 import Section_2 from "./Section-2";
 import Section_1 from "./Section-1";
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 export default async function SongsByCategoriesPage( { params } : any ) {
   const { id } = await params;
 

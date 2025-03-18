@@ -36,7 +36,7 @@ export default function PlayAction () {
         }
     }
 
-    const HandlePrev = (event: any) => {
+    const HandlePrev = () => {
         const elementPlayAudio:any = document.querySelector(".audio-play");
         const idSong = elementPlayAudio.getAttribute("song-id");
         if(idSong){
